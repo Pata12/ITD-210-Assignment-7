@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<title>Events page</title>
+		<!-- Bootstrap -->
+		 <!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		
+		<link href="common.css" rel="stylesheet">
+		<link href="events.css" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<!--<div class="jumbotron jumbotron-fluid"></div>-->
+				<div class="logo" ><img class="logo" src="images/logo.png" /></div>
+				<div class="title"><h3 class='title'>Tidewater Community College's Makerspace</h3></div>
+			
+			<div class='nav nav-tabs'>
+				<a href="Homepage.html" > <div class="nav-link"><h4>Home</h4></div> </a>
+				<a href="Events.html" > <div class="nav-link"><h4>Events</h4></div> </a>
+				<a href="Update.html" > <div class="nav-link"><h4>Updates</h4></div> </a>
+				<a href="Equipment.html" > <div class="nav-link"><h4>Equipment</h4></div> </a>
+				<a href="Project.html" > <div class="nav-link"><h4>Projects</h4></div> </a>
+				<a href="UA.html" > <div class="nav-link"><h4>User Agreement</h4></div> </a>
+			</div>
+		</header>
+		<div class="calendar">
+			<iframe class='calendar' src="https://calendar.google.com/calendar/b/1/embed?mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=email.vccs.edu_m1d186c9fqnuesrv43t5891ins%40group.calendar.google.com&amp;color=%2342104A&amp;ctz=America%2FNew_York" 
+					style="border-width:0"  frameborder="0" scrolling="no"></iframe>
+		</div>
+		<div class="form">
+			<h4>Set up an event</h4>
+			<form action="mailto:psc214@email.vccs.edu.com" method="post" enctype="text/plain">
+				Name:<br>
+				<input type="text" name="name"><br>
+				E-mail:<br>
+				<input type="text" name="mail"><br>
+				Description:<br>
+				<textarea name="comment" rows="4" cols="50">Description of the event</textarea><br>
+				<input type="submit" value="Send">
+				<input type="reset" value="Reset">
+			</form>
+		</div>
+		<footer>
+			<div class='footer'>
+				building: <br>
+				room number: 
+			</div>
+			
+			<div class='footer'>
+				Hours of Operation:<br>
+				Mon-Fri: ???<br>
+				Sat-Sun: ???
+			</div>
+			<div class='footer'>
+				Contact Info:<br>
+				Phone#: <br>
+				email: 
+			</div>
+		</footer>
+	</body>
+</html>

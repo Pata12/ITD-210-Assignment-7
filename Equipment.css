@@ -1,0 +1,23 @@
+div#carousel-example-generic {
+	display: block;
+	float: left;
+}
+
+div.slide-content {
+	display:block;
+	background: lightblue;
+	text-align: center;
+}
+h5 {
+	margin-top: 0;
+}
+div.slide-content p {
+	display: inline-block;
+	text-align: left;
+}
+
+div.carousel-caption {
+	color: darkblue;
+	font-size: 40px;
+	font-style: bold;
+}

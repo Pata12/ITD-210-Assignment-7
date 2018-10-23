@@ -1,0 +1,44 @@
+div.aside {
+	float: left;
+	width: 25%;
+	height: 400px;
+}
+aside {
+	background-color: lightblue;
+	width: 90%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	border: 1px solid;
+	color: darkblue;
+	height: 400px;
+}
+div.article {
+	float: left;
+	width: 75%;
+	height: 200px;
+}
+article {
+	color: darkblue;
+}
+div.bodyImage {
+	float: left;
+	display: block;
+	width: 25%;
+	height: 200px;
+}
+div.video {
+	width: 75%;
+	float: left;
+	position: relative;
+    overflow: hidden;
+    padding-top: 42.1875%;
+}
+.YTvideo {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
